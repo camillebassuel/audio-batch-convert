@@ -32,8 +32,8 @@ def getAllNestedFolders(path, ret):
         fpath = path + '/'+ folder
         getAllNestedFolders(fpath,ret)
 
-pathin =  'E:/_z/Julee Cruise - Floating Into The Night'
-pathout =  './conv'
+pathin =  'the folder it will read files from'
+pathout =  'the folder it will write the files to'
 
 pathdatas = []
 getAllNestedFolders(pathin,pathdatas)
